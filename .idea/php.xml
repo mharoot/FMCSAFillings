@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/payments/vendor/phpmd/phpmd" />
+      <path value="$PROJECT_DIR$/payments/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/payments/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/payments/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/payments/vendor/composer" />
+      <path value="$PROJECT_DIR$/payments/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/payments/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/payments/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/payments/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/payments/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/payments/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/payments/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/payments/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/payments/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/payments/vendor/jms/serializer" />
+      <path value="$PROJECT_DIR$/payments/vendor/jms/parser-lib" />
+      <path value="$PROJECT_DIR$/payments/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/payments/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/payments/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/payments/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/payments/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/payments/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/payments/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/payments/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/payments/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/payments/vendor/phpcollection/phpcollection" />
+      <path value="$PROJECT_DIR$/payments/vendor/goetas-webservices/xsd2php-runtime" />
+      <path value="$PROJECT_DIR$/payments/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/payments/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/payments/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/payments/vendor/pdepend/pdepend" />
+      <path value="$PROJECT_DIR$/payments/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/payments/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/payments/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/payments/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/payments/vendor/psr/container" />
+    </include_path>
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/payments/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>

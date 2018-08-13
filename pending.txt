@@ -1,0 +1,12 @@
+1. "types of charges" in the receipt to "Service types"
+also "date of charges" to "Date of charge" - Both in the CC Authorization form and Payment Receipt
+
+2. Users need to see all the Inbound messages
+
+3. Order to payment - by putting order# we can automatically fill out the information for Billing Address, Service types, Authorized Amount, Mobile#, Email..
+
+
+Aram, 12:01 AM
+4. Users need to have Quotes, Orders, Forms, CC form and Inbound messages
+
+5. Also Pras we are getting the quote/cc form to our mobile from number 786 828-6862 but for the inbound messages we put 3236723067 we need to send everything from the # 3236723067 to be able to get the messages back : Done

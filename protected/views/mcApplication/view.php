@@ -1,0 +1,91 @@
+<?php
+/* @var $this McApplicationController */
+/* @var $model DotTrackerMc */
+
+$this->breadcrumbs=array(
+	'MC Applications'=>array('index'),
+	$model->title,
+);
+
+/*$this->menu=array(
+	array('label'=>'List DotTrackerMc', 'url'=>array('index')),
+	array('label'=>'Create DotTrackerMc', 'url'=>array('create')),
+	array('label'=>'Update DotTrackerMc', 'url'=>array('update', 'id'=>$model->id)),
+	array('label'=>'Delete DotTrackerMc', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Manage DotTrackerMc', 'url'=>array('admin')),
+);*/
+?>
+
+<h1>View MC Application #<?php echo $model->id; ?></h1>
+
+<?php $this->widget('zii.widgets.CDetailView', array(
+	'data'=>$model,
+	'attributes'=>array(
+		'id',
+		'authority_c',
+		'authority_no',
+		'legal_business_name',
+		'doing_business_as',
+		'p_street',
+		'p_state',
+		'p_city',
+		'p_zip',
+		'p_telephone',
+		'p_fax',
+		'm_street',
+		'm_city',
+		'm_state',
+		'm_zip',
+		'm_telephone',
+		'm_fax',
+		'r_name',
+		'r_title',
+		'r_street',
+		'r_state',
+		'r_zip',
+		'r_telephone',
+		'r_fax',
+		'dot_number',
+		/*'form_of_business_c',
+		'form_of_business',
+		'type_of_auth',
+		'p_29a',
+		'p_29b',
+		'p_30',
+		'p_31',
+		'affl_cont',
+		'affl_file',
+		'p_33',
+		'p_34',
+		'p_35',
+		'p_36_check',
+		'p_36_file',
+		'p_37',
+		'p_38_name',
+		'sign_link',
+		'title',
+		'date',
+		'no_of_checkboxes',
+		'payment_method',
+		'cc_type',
+		'cc_number',
+		'cc_date',
+		'cc_name',
+		'payment_amount',
+		'street',
+		'city',
+		'state',
+		'zip',
+		'sign_link1',
+		'date1',
+		'extra1',
+		'extra2',
+		'extra3',
+		'extra4',
+		'extra5',
+		'extra6',*/
+		'creationdate_time',
+		//'last_update',
+		'created_by',
+	),
+)); ?>

@@ -58,10 +58,10 @@ class EmployerPullNoticeController extends Controller
 	{
 
 
-        $imgPath = '/home/wwwdot321t/public_html/fmcsafiling.com/epn.jpg';
+        $imgPath = '/xampp/htdocs/FMCSAFillings/epn.jpg';
         $image = imagecreatefromjpeg($imgPath);
-        $dest = imagecreatefrompng('/home/wwwdot321t/public_html/fmcsafiling.com/tick.png');
-        $dest1 = imagecreatefrompng('/home/wwwdot321t/public_html/fmcsafiling.com/tick1.png');
+        $dest = imagecreatefrompng('/xampp/htdocs/FMCSAFillings/tick.png');
+        $dest1 = imagecreatefrompng('/xampp/htdocs/FMCSAFillings/tick1.png');
 
 
 
@@ -184,8 +184,8 @@ class EmployerPullNoticeController extends Controller
 
 
 
-        //imagejpeg($image,'/home/wwwdot321t/public_html/fmcsafiling.com/epn-prasan.jpg');
-        imagejpeg($image,'/home/wwwdot321t/public_html/fmcsafiling.com/epn-'.$id.'.jpg');
+        //imagejpeg($image,'/xampp/htdocs/FMCSAFillings/epn-prasan.jpg');
+        imagejpeg($image,'/xampp/htdocs/FMCSAFillings/epn-'.$id.'.jpg');
 
 
        // print_r(imagejpeg($image));
@@ -216,7 +216,7 @@ class EmployerPullNoticeController extends Controller
         ///print_r($imagedata);die;
 
         //$file = '/Applications/MAMP/htdocs/fmcsa-filings/uploadsign/epn'.$filename.'.png';
-        $file='/home/wwwdot321t/public_html/fmcsafiling.com/uploadsign/epn1/'.$filename.'.png';
+        $file='/xampp/htdocs/FMCSAFillings/uploadsign/epn1/'.$filename.'.png';
         if(file_put_contents($file,$imagedata)){
             $CreditCardAuth->sign_link=$file;
 
@@ -230,10 +230,10 @@ class EmployerPullNoticeController extends Controller
     {
 
 
-        $imgPath = '/home/wwwdot321t/public_html/fmcsafiling.com/epn.jpg';
+        $imgPath = '/xampp/htdocs/FMCSAFillings/epn.jpg';
         $image = imagecreatefromjpeg($imgPath);
-        $dest = imagecreatefrompng('/home/wwwdot321t/public_html/fmcsafiling.com/tick.png');
-        $dest1 = imagecreatefrompng('/home/wwwdot321t/public_html/fmcsafiling.com/tick1.png');
+        $dest = imagecreatefrompng('/xampp/htdocs/FMCSAFillings/tick.png');
+        $dest1 = imagecreatefrompng('/xampp/htdocs/FMCSAFillings/tick1.png');
 
 
 
@@ -340,8 +340,8 @@ class EmployerPullNoticeController extends Controller
 
 
 
-        //imagejpeg($image,'/home/wwwdot321t/public_html/fmcsafiling.com/epn-prasan.jpg');
-        imagejpeg($image,'/home/wwwdot321t/public_html/fmcsafiling.com/epn-'.$id.'.jpg');
+        //imagejpeg($image,'/xampp/htdocs/FMCSAFillings/epn-prasan.jpg');
+        imagejpeg($image,'/xampp/htdocs/FMCSAFillings/epn-'.$id.'.jpg');
 
 
         // print_r(imagejpeg($image));
@@ -523,9 +523,9 @@ class EmployerPullNoticeController extends Controller
 	{
         header('Content-type: image/jpeg');
 
-        $imgPath = '/home/wwwdot321t/public_html/fmcsafiling.com/epn.jpg';
+        $imgPath = '/xampp/htdocs/FMCSAFillings/epn.jpg';
         $image = imagecreatefromjpeg($imgPath);
-        $dest = imagecreatefrompng('/home/wwwdot321t/public_html/fmcsafiling.com/tick.png');
+        $dest = imagecreatefrompng('/xampp/htdocs/FMCSAFillings/tick.png');
 
         function addText($x, $y, $image, $str)
         {

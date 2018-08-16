@@ -98,7 +98,7 @@ class CreditCardAuthorizationController extends Controller
         ///print_r($imagedata);die;
 
         $file = '/Applications/MAMP/htdocs/fmcsa-filings/uploadsign/'.$filename.'.png';
-        $file='/home/wwwdot321t/public_html/fmcsafiling.com/uploadsign/'.$filename.'.png';		
+        $file='/xampp/htdocs/FMCSAFillings/uploadsign/'.$filename.'.png';		
         if(file_put_contents($file,$imagedata)){
             $CreditCardAuth->sign_link='uploadsign/'.$filename.'.png';
             $CreditCardAuth->ccholder_name=$ccname;

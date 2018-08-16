@@ -1,3 +1,3 @@
 <?php
-exec('/usr/bin/php /home/wwwdot321t/public_html/fmcsafiling.com/sendSmsService.php 7 +918237357638');
+exec('/usr/bin/php /xampp/htdocs/FMCSAFillings/sendSmsService.php 7 +918237357638');
 ?>

@@ -53,10 +53,10 @@ class EmployeePullNotice2Controller extends Controller
     {
 
 
-        $imgPath = '/home/wwwdot321t/public_html/fmcsafiling.com/epn2.jpg';
+        $imgPath = '/xampp/htdocs/FMCSAFillings/epn2.jpg';
         $image = imagecreatefromjpeg($imgPath);
-        $dest = imagecreatefrompng('/home/wwwdot321t/public_html/fmcsafiling.com/tick.png');
-        $dest1 = imagecreatefrompng('/home/wwwdot321t/public_html/fmcsafiling.com/tick1.png');
+        $dest = imagecreatefrompng('/xampp/htdocs/FMCSAFillings/tick.png');
+        $dest1 = imagecreatefrompng('/xampp/htdocs/FMCSAFillings/tick1.png');
 
 
 
@@ -193,8 +193,8 @@ class EmployeePullNotice2Controller extends Controller
 
 
 
-        //imagejpeg($image,'/home/wwwdot321t/public_html/fmcsafiling.com/epn-prasan.jpg');
-        imagejpeg($image,'/home/wwwdot321t/public_html/fmcsafiling.com/epn2-'.$id.'.jpg');
+        //imagejpeg($image,'/xampp/htdocs/FMCSAFillings/epn-prasan.jpg');
+        imagejpeg($image,'/xampp/htdocs/FMCSAFillings/epn2-'.$id.'.jpg');
 
 
         // print_r(imagejpeg($image));

@@ -7,8 +7,8 @@ return array(
 
 	'connectionString' => 'mysql:host=localhost;dbname=dot_tracker',
 	'emulatePrepare' => true,
-	'username' => 'wwwdot32_dot_adm',
-	'password' => 'pass_dot@741',
+	'username' => 'root',
+	'password' => '',
 	'charset' => 'utf8',
 
 );

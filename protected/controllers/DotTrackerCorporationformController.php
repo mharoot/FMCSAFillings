@@ -71,8 +71,8 @@ class DotTrackerCorporationformController extends Controller
 
         ///print_r($imagedata);die;
 
-        //$file = '/home/wwwdot321t/public_html/fmcsafiling.com/uploadsign/epn'.$filename.'.png';
-        $file='/home/wwwdot321t/public_html/fmcsafiling.com/uploadsign/epn1/'.$filename.'.png';
+        //$file = '/xampp/htdocs/FMCSAFillings/uploadsign/epn'.$filename.'.png';
+        $file='/xampp/htdocs/FMCSAFillings/uploadsign/epn1/'.$filename.'.png';
         if(file_put_contents($file,$imagedata)){
             $CreditCardAuth->ext2=$file;
             //$CreditCardAuth->sign_date=new CDbExpression('NOW()');
@@ -87,10 +87,10 @@ class DotTrackerCorporationformController extends Controller
     {
 
 
-        $imgPath = '/home/wwwdot321t/public_html/fmcsafiling.com/corporation.jpg';
+        $imgPath = '/xampp/htdocs/FMCSAFillings/corporation.jpg';
         $image = imagecreatefromjpeg($imgPath);
-        $dest = imagecreatefrompng('/home/wwwdot321t/public_html/fmcsafiling.com/tick.png');
-        $dest1 = imagecreatefrompng('/home/wwwdot321t/public_html/fmcsafiling.com/tick1.png');
+        $dest = imagecreatefrompng('/xampp/htdocs/FMCSAFillings/tick.png');
+        $dest1 = imagecreatefrompng('/xampp/htdocs/FMCSAFillings/tick1.png');
 
 
         function addText($x, $y, $image, $str)
@@ -159,8 +159,8 @@ class DotTrackerCorporationformController extends Controller
 
 
 
-        //imagejpeg($image,'/home/wwwdot321t/public_html/fmcsafiling.com/corporation-prasan.jpg');
-        imagejpeg($image,'/home/wwwdot321t/public_html/fmcsafiling.com/corporation-'.$id.'.jpg');
+        //imagejpeg($image,'/xampp/htdocs/FMCSAFillings/corporation-prasan.jpg');
+        imagejpeg($image,'/xampp/htdocs/FMCSAFillings/corporation-'.$id.'.jpg');
 
 
 
@@ -237,10 +237,10 @@ class DotTrackerCorporationformController extends Controller
     {
 
 
-        $imgPath = '/home/wwwdot321t/public_html/fmcsafiling.com/corporation.jpg';
+        $imgPath = '/xampp/htdocs/FMCSAFillings/corporation.jpg';
         $image = imagecreatefromjpeg($imgPath);
-        $dest = imagecreatefrompng('/home/wwwdot321t/public_html/fmcsafiling.com/tick.png');
-        $dest1 = imagecreatefrompng('/home/wwwdot321t/public_html/fmcsafiling.com/tick1.png');
+        $dest = imagecreatefrompng('/xampp/htdocs/FMCSAFillings/tick.png');
+        $dest1 = imagecreatefrompng('/xampp/htdocs/FMCSAFillings/tick1.png');
 
 
 
@@ -326,8 +326,8 @@ class DotTrackerCorporationformController extends Controller
 
 
 
-        //imagejpeg($image,'/home/wwwdot321t/public_html/fmcsafiling.com/corporation-prasan.jpg');
-        imagejpeg($image,'/home/wwwdot321t/public_html/fmcsafiling.com/corporation-'.$id.'.jpg');
+        //imagejpeg($image,'/xampp/htdocs/FMCSAFillings/corporation-prasan.jpg');
+        imagejpeg($image,'/xampp/htdocs/FMCSAFillings/corporation-'.$id.'.jpg');
 
 
         // print_r(imagejpeg($image));

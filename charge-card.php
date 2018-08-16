@@ -9,7 +9,7 @@
 header("Access-Control-Allow-Origin: *");
 error_reporting(E_ALL); ini_set('display_errors', 1);
 
-require_once '/home/wwwdot321t/public_html/fmcsafiling.com/payments/vendor/autoload.php';
+require_once '/xampp/htdocs/FMCSAFillings/payments/vendor/autoload.php';
 use net\authorize\api\contract\v1 as AnetAPI;
 use net\authorize\api\controller as AnetController;
 define("AUTHORIZENET_LOG_FILE", "phplog");

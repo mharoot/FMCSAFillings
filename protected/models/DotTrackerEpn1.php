@@ -111,7 +111,7 @@ class DotTrackerEpn1 extends CActiveRecord
             'acc_city' => 'CITY',
             'acc_state' => 'STATE',
             'acc_zip' => 'ZIP',
-            'billing_person' => 'BILLING ACCONT CONTACT PERSON',
+            'billing_person' => 'BILLING ACCOUNT CONTACT PERSON',
             'billing_telephone' => 'TELEPHONE NUMBER',
             'billing_attention' => 'ATTENTION',
             'billing_telephone2' => 'TELEPHONE NUMBER',
